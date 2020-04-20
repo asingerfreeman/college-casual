@@ -62,7 +62,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 .filterDiv {
-  float: left;
+  float: center;
   background-color: #2196F3;
   color: #ffffff;
   width: 100px;
@@ -202,12 +202,16 @@ for (var i = 0; i < btns.length; i++) {
   </nav>
   
   <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-  <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-  <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-</div>
+  <button class="btn active" onclick="filterSelection('all')"> All</button>
+  <button class="btn" onclick="filterSelection('cornell')"> Cornell</button>
+  <button class="btn" onclick="filterSelection('dartmouth')"> Dartmouth</button>
+  <button class="btn" onclick="filterSelection('marquette')"> Marquette</button>
+  <button class="btn" onclick="filterSelection('ncc')"> North Central College</button>
+  <button class="btn" onclick="filterSelection('niu')"> Northern Illinois University</button>
+  <button class="btn" onclick="filterSelection('unc')"> University of North Carolina</button>
+  <button class="btn" onclick="filterSelection('uni')"> University of Northern Iowa</button>
+  <button class="btn" onclick="filterSelection('wustl')"> Washington University in St. Louis</button>
+  </div>
 
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 <div class="container">
@@ -229,6 +233,7 @@ for (var i = 0; i < btns.length; i++) {
   <a id="CU"></a>
   <section class="page-section">
     <div class="container">
+      <div class="filterDiv cornell">
       <div class="product-item">
         <div class="product-item-title d-flex">
           <div class="bg-faded p-5 d-flex ml-auto rounded">
@@ -252,10 +257,12 @@ for (var i = 0; i < btns.length; i++) {
         </div>
       </div>
     </div>
+    </div>
   </section>
   
   <section class="page-section">
     <div class="container">
+      <div class="filterDiv cornell">
       <div class="product-item">
         <div class="product-item-title d-flex">
           <div class="bg-faded p-5 d-flex ml-auto rounded">
@@ -278,12 +285,14 @@ for (var i = 0; i < btns.length; i++) {
           </div>
         </div>
       </div>
+      </div>
     </div>
   </section>
   
   <a id="DC"></a>
   <section class="page-section">
     <div class="container">
+      <div class="filterDiv dartmouth">
       <div class="product-item">
         <div class="product-item-title d-flex">
           <div class="bg-faded p-5 d-flex ml-auto rounded">
@@ -307,16 +316,18 @@ for (var i = 0; i < btns.length; i++) {
         </div>
       </div>
     </div>
+    </div>
   </section>
   
   <a id="NCC"></a>
   <section class="page-section">
     <div class="container">
+      <div class="filterDiv ncc">
       <div class="product-item">
         <div class="product-item-title d-flex">
           <div class="bg-faded p-5 d-flex ml-auto rounded">
             <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">Northern Illinois University</span>
+              <span class="section-heading-upper">North Central College</span>
               <span class="section-heading-lower">Logan Schaefer</span>
             </h2>
           </div>
