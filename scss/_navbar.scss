@@ -1,5 +1,7 @@
 #mainNav {
   background-color: fade-out($secondary, 0.1);
+  margin-left: auto;
+  margin-right: auto;
   @include heading-font;
   .navbar-brand {
     color: $primary;
@@ -8,7 +10,8 @@
     .nav-item {
       .nav-link {
         color: fade-out($white, 0.3);
-
+        margin-left: auto;
+        margin-right: auto;
         font-weight: 800;
       }
       &.active {
@@ -23,6 +26,8 @@
       .nav-item {
         .nav-link {
           font-size: 0.9rem;
+          margin-left: auto;
+          margin-right: auto;
           &:hover {
             color: fade-out($white, 0.6);
           }
