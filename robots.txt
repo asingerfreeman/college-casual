@@ -4,3 +4,5 @@ Disallow: /css/
 Disallow: /img/
 Disallow: /scss/
 Disallow: /vendor/
+
+Sitemap: https://inyourshoesmentoring.org/sitemap.xml
