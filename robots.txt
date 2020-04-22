@@ -1,9 +1,6 @@
 User-agent: *
 Disallow: /blogPosts/
-Disallow: /css/
-Disallow: /scss/
-Disallow: /vendor/
-Disallow: /img/
+
 
 
 Sitemap: https://inyourshoesmentoring.org/sitemap.xml
