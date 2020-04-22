@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /blogPosts/
+Disallow: /css/
+Disallow: /img/
+Disallow: /scss/
+Disallow: /vendor/
